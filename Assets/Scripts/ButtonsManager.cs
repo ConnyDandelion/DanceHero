@@ -11,6 +11,19 @@ public class ButtonsManager : MonoBehaviour
     [SerializeField]
 
     private string hiddeAnimationName = "Hide" ;
+    [SerializeField]
+
+    private Animator CloseButton;
+
+    public void ShowCloseButton()
+    {
+        CloseButton.Play(ShowAnimationName, 0, 0f);
+    }
+
+    public void HideCloseButton()
+    {
+        CloseButton.Play(hiddeAnimationName, 0, 0f);
+    }
     
     public void ShowButtons(float delay =0f)
     {
