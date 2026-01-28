@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   songName: Show me love
   animationName: Limbo
+  notesConfig: {fileID: 4900000, guid: 51345bf2be3331b42b90fec661afbffd, type: 3}
+  speed: 400
