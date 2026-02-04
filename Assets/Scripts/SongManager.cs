@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 public class SongManager : MonoBehaviour
 {
@@ -45,5 +46,19 @@ public class SongManager : MonoBehaviour
         SoundManager.instance.StopMusic();
         Character.Play(characterData.idleAnimationName,0, 0f);
      }
+
+     public void FailNote()
+   {
+      StopAllCoroutines();
+      StartCoroutine(PlayFailAnimation());
+   }
+
+   private IEnumerator PlayFailAnimation()
+   {
+      SoundManager.instance.Play(characterData.failSoundName);
+      Character.Play(characterData.failAnimationName, 0, 0f);
+      yield return new WaitForSeconds(Character.GetCurrentAnimatorStateInfo(0).length);
+      Character.Play(currentSong.animationName, 0, 0f);
+   }
 
 }
