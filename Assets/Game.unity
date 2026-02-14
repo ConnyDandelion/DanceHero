@@ -1744,7 +1744,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Crowd_win
+          m_StringArgument: Crowd_Win
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1089795769}
@@ -1869,6 +1869,7 @@ MonoBehaviour:
   lanes:
   - {fileID: 1670413126}
   - {fileID: 993785114}
+  - {fileID: 1649501705}
 --- !u!4 &742919626
 Transform:
   m_ObjectHideFlags: 0
@@ -4551,7 +4552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Line
   notesPivot: {fileID: 1498074328}
-  notePrefab: {fileID: 6164037836561799469, guid: 1163525b2a4c07943ae5ca56486b2851, type: 3}
+  notePrefab: {fileID: 6345344970576387890, guid: f0256596697c7854a9717c411f9d1b1d, type: 3}
 --- !u!225 &1649501706
 CanvasGroup:
   m_ObjectHideFlags: 0

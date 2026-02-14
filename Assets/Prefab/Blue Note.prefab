@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6345344970576387890
+--- !u!1 &6164037836561799469
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,28 +8,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8612669379016218513}
-  - component: {fileID: 4109234549939849936}
-  - component: {fileID: 7703126818698316309}
-  - component: {fileID: 6250073339738641243}
-  - component: {fileID: 4755545080353911237}
-  - component: {fileID: 5229415978912142434}
+  - component: {fileID: 2434132938701598279}
+  - component: {fileID: 6204288908630599739}
+  - component: {fileID: 2103885490039965059}
+  - component: {fileID: 6272693451474205919}
+  - component: {fileID: 5311981788599838114}
+  - component: {fileID: 6147241075706663490}
   m_Layer: 5
-  m_Name: Red Note
+  m_Name: Blue Note
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &8612669379016218513
+--- !u!224 &2434132938701598279
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6345344970576387890}
+  m_GameObject: {fileID: 6164037836561799469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -7466.9277}
+  m_LocalPosition: {x: 0, y: 0, z: -3204.163}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37,24 +37,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 363.8209, y: -0}
+  m_AnchoredPosition: {x: 410.3949, y: 0.00001}
   m_SizeDelta: {x: 190, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4109234549939849936
+--- !u!222 &6204288908630599739
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6345344970576387890}
+  m_GameObject: {fileID: 6164037836561799469}
   m_CullTransparentMesh: 1
---- !u!114 &7703126818698316309
+--- !u!114 &2103885490039965059
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6345344970576387890}
+  m_GameObject: {fileID: 6164037836561799469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -78,13 +78,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!61 &6250073339738641243
+--- !u!61 &6272693451474205919
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6345344970576387890}
+  m_GameObject: {fileID: 6164037836561799469}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -124,14 +124,14 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 191.3, y: 156.1}
   m_EdgeRadius: 0
---- !u!50 &4755545080353911237
+--- !u!50 &5311981788599838114
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6345344970576387890}
+  m_GameObject: {fileID: 6164037836561799469}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -151,13 +151,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!114 &5229415978912142434
+--- !u!114 &6147241075706663490
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6345344970576387890}
+  m_GameObject: {fileID: 6164037836561799469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebe2a730b9de10f4da3b1a4e39a45cda, type: 3}
